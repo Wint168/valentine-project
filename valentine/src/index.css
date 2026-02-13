@@ -1,0 +1,80 @@
+body{
+  background-image: url(assets/vday.jpg);
+  background-size: cover;        
+  background-position: center;   
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@font-face {
+    font-family: 'Press Start 2P';
+    src: url('./assets/PressStart2P-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h4{
+  font-family: 'Press Start 2P';
+  text-align: center;
+}
+
+.container{
+  width: 450px;
+  height: 450px;
+  background-color: rgb(236, 140, 191);
+  
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px hsla(321, 79%, 58%, 0.83);
+  font-family: 'Press Start 2P';
+  padding-top: 30px;
+  
+  
+}
+
+.heart{
+ margin-left: 120px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+
+.yes{
+  height: 80px;
+  width: 80px;
+  color: black;
+  background-color: rgb(35, 177, 47);
+  font-family: 'Press Start 2P';
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5em;
+  margin-left: 90px;
+  margin-right: 120px;
+  cursor: pointer;
+}
+
+.no{
+  height: 80px;
+  width: 80px;
+  color: black;
+  background-color: rgb(223, 59, 73);
+  font-family:'Press Start 2P' ;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.answer{
+  text-align: center;
+  
+}
+
+.kitty{
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
