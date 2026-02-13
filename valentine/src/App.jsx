@@ -1,10 +1,9 @@
-import Valentine from "./valentine"
-
+import Vdate from "./Vdate";
 function App() {
   
 
   return (
-    <Valentine></Valentine>
+    <Vdate></Vdate>
   );
 }
 

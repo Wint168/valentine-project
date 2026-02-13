@@ -2,7 +2,7 @@ import { useState } from "react";
 import heart from "./assets/pixel-heart.gif";
 import kitty from "./assets/kitty.gif"
 
-function Valentine() {
+function Vdate() {
   const [noPosition, setNoPosition] = useState(null);
   const [yesSize, setYesSize] = useState(1);
   const [tries, setTries] = useState(0);
@@ -81,5 +81,5 @@ function Valentine() {
   );
 }
 
-export default Valentine;
+export default Vdate;
 
